@@ -31,6 +31,10 @@ cheat() {
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+## Global exports
+export HTTP_PROXY="http://127.0.0.1:7897"
+export HTTPS_PROXY="http://127.0.0.1:7897"
+
 ## Aliases
 alias ip="ip --color=auto"
 alias ghce='gh copilot explain'
