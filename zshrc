@@ -3,14 +3,18 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Plugins
+## note that zsh-autosuggestions and zsh-syntax-highlighting should be manually cloned
+## refer to https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh
+## and https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
 plugins=(
   git
-  zsh-syntax-highlighting
-  zsh-autosuggestions
+  docker
   z
   sudo
   systemd
   history-substring-search
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 # PATH settings here
