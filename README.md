@@ -13,3 +13,15 @@ Refer to following resources for Powerlevel10k, zsh-autosuggestions, and zsh-syn
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+
+## vimrc
+Install vim with apt:
+```bash
+sudo apt install vim  # For Debian/Ubuntu
+```
+
+Then, follow these steps:
+1. Install [Vundle](https://github.com/VundleVim/Vundle.vim) for managing Vim plugins.
+2. Copy `.vimrc` to `~/.vimrc`.
+3. Uncomment YCM plugin if needed. Install YCM dependencies by following [instructions](https://github.com/ycm-core/YouCompleteMe).
+4. Open vim and run `:PluginInstall` to install plugins.
