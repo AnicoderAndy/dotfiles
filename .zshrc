@@ -18,6 +18,8 @@ plugins=(
 )
 
 # PATH settings here
+export PATH=$HOME/.local/bin:$PATH
+# export PATH=/usr/local/texlive/2025/bin/x86_64-linux:$PATH
 # export VCPKG_ROOT=~/vcpkg
 # export PATH=$VCPKG_ROOT:$PATH
 
@@ -41,9 +43,9 @@ export HTTPS_PROXY="http://127.0.0.1:7897"
 
 ## Aliases
 alias ip="ip --color=auto"
-alias ghce='gh copilot explain'
-alias ghcs='gh copilot suggest'
 alias cda='conda activate'
 alias cdd='conda deactivate'
+alias mba='mamba activate'
+alias mbd='mamba deactivate'
 alias l="ls --hyperlink=auto -lhrtF"
 alias sudo='sudo --preserve-env=http_proxy,https_proxy,HTTP_PROXY,HTTPS_PROXY'
