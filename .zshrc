@@ -1,6 +1,6 @@
 # Path to oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Plugins
 ## note that zsh-autosuggestions and zsh-syntax-highlighting should be manually cloned
@@ -19,7 +19,7 @@ plugins=(
 
 # PATH settings here
 export PATH=$HOME/.local/bin:$PATH
-# export PATH=/usr/local/texlive/2025/bin/x86_64-linux:$PATH
+# export PATH=/usr/local/texlive/2026/bin/x86_64-linux:$PATH
 # export VCPKG_ROOT=~/vcpkg
 # export PATH=$VCPKG_ROOT:$PATH
 
@@ -49,3 +49,5 @@ alias mba='mamba activate'
 alias mbd='mamba deactivate'
 alias l="ls --hyperlink=auto -lhrtF"
 alias sudo='sudo --preserve-env=http_proxy,https_proxy,HTTP_PROXY,HTTPS_PROXY'
+
+eval "$(starship init zsh)"
